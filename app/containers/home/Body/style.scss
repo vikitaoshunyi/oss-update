@@ -1,0 +1,50 @@
+@import "@app/variable.scss";
+.body {
+  height: calc(100vh - #{$headerHeight});
+  width: calc(100vh - #{$meunWidth});
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .b-center-empty {
+    position: relative;
+    display: flex;
+    width: 210px;
+    height: 162px;
+    color: #aaaaaa;
+    font-size: 30px;
+    text-align: center;
+    background: url(../../../images/personal_page_empty_status.png) center no-repeat;
+    background-size: cover;
+    span {
+      position: absolute;
+      display: block;
+      left: 0;
+      right: 0;
+      top: 100%;
+      text-align: center;
+    }
+  }
+  .b-center {
+    width: 100%;
+    align-self: stretch;
+    overflow: auto;
+    padding: 5px;
+    .b-sync {
+      padding-bottom: 10px;
+    }
+    .ant-table tbody > tr > td {
+      white-space: nowrap;
+    }
+  }
+  
+}
+.b-add-box {
+  .ant-input-group-addon {
+    min-width: 100px;
+  }
+  .b-add-line {
+    height: 10px;
+  }
+
+}
