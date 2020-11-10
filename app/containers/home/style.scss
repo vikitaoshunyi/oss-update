@@ -1,0 +1,24 @@
+::-webkit-scrollbar-track-piece{width:1px;background-color:white ;  }
+
+::-webkit-scrollbar{
+  background: none;
+  height: 8px;
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+  -webkit-transition: background .2s ease;
+  background: #d8d8d8;
+  border-radius: 4px;
+  transition: background .6s ease;
+}
+
+::-webkit-scrollbar-thumb:hover{background:rgba(0,0,0,0.5) ; cursor:pointer}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.content {
+  display: flex;
+}

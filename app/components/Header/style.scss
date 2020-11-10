@@ -1,0 +1,21 @@
+@import "@app/variable.scss";
+.header {
+  height: $headerHeight;
+  background: #F5F5F5;
+  -webkit-app-region: drag;
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+  .ant-select {
+    -webkit-app-region: no-drag;
+  }
+  .h-progress {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    
+  }
+}
